@@ -54,25 +54,41 @@ https://youtu.be/CIdEN2JNAzw
 
 
 ## Install Script (For openDash / Full setup of raspberry pi 5)
+
 The full installation is taking time. It might take between 30 and 60 minutes.
+
 I didnt measure it excactly.
+
 Please run the script on the pi itself. Not via ssh.
+
 Please also connect the pi to ethernet for internet access.
+
 Otherwise the installation might fail.
+
 Wifi will not be available
+
 The password of the Wifi Trabant601 is MeinTollesPasswort123
 
 If you want to change it you need a few modifikations.
+
 Informations about that might follow.
+
 Currently the script is not build for that modifikations.
+
 If the script fails at one point you can simply restart it by sudo ./autoinstall.sh
+
 It will check which changes are done and continues with the steps that still needs to be done.
 
 Reboot the pi after full installation.
+
+
 ```
 cd /home/pi
+
 wget https://raw.githubusercontent.com/ELEKTRUS1932/dash/develop/autoinstall.sh
+
 sudo chmod +x autoinstall.sh
+
 sudo ./autoinstall.sh
 ```
 
